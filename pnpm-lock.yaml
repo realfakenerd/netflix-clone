@@ -1,10 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@sveltejs/adapter-netlify': ^1.0.0-next.0
   '@sveltejs/kit': next
   eslint: ^7.32.0
   eslint-plugin-svelte3: ^3.2.1
   svelte: ^3.42.6
+
+dependencies:
+  '@sveltejs/adapter-netlify': 1.0.0-next.0
 
 devDependencies:
   '@sveltejs/kit': 1.0.0-next.180_svelte@3.43.1
@@ -73,6 +77,12 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.0
     dev: true
+
+  /@sveltejs/adapter-netlify/1.0.0-next.0:
+    resolution: {integrity: sha512-CxjWlGkNyQzEB9LsXN+MvF1Z+SHRb16cNZL8sy5bUcytDcf7ETjlgKdaxks7ygWBhI/wtx4Mcxr+uIt50p8vag==}
+    dependencies:
+      toml: 3.0.0
+    dev: false
 
   /@sveltejs/kit/1.0.0-next.180_svelte@3.43.1:
     resolution: {integrity: sha512-SbqZqgtw1KnyV1CXqOLQUQTxOksONvNUGeyalAQem8XHPiV7iNslPhXbTBxHyBhD3rvY4Nzd1kPp9/zCVeWsog==}
@@ -1045,6 +1055,10 @@ packages:
   /text-table/0.2.0:
     resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
     dev: true
+
+  /toml/3.0.0:
+    resolution: {integrity: sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==}
+    dev: false
 
   /type-check/0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
